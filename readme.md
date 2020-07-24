@@ -1,16 +1,16 @@
-# Docker 環境作成の Test 用レポジトリ
+# Livelynk Docker-compose 環境レポジトリ
 
 ## 構成
 
 - php 7.4-fpm
 - nginx 1.15.6
 - mysql 8.0
-- laravel 7.19.0(別レポジトリ)
+- laravel 5.6.39(別レポジトリ)
 
-laravel アプリは本リポジトリと同じディレクトリに配 app フォルダを設置、配下に laravel-app のフォルダ名で設置としている
+livelynk アプリ本体(Laravel)は本リポジトリと同じ階層に app フォルダを設置、配下に livelynk レポジトリを設置する
 
 ```
-├docker-compose-laravel
+├docker-compose-livelynk
 └app
-  └laravel-app
+  └livelynk
 ```
